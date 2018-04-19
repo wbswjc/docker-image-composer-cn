@@ -1,2 +1,2 @@
 # docker-image-composer-cn
-Composer image for Chinese (mainland) users
+Composer image customized for Chinese mainland users
