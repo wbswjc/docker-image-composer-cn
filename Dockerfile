@@ -1,4 +1,4 @@
-FROM composer:1.6.3
+FROM composer:latest
 
 RUN composer config -g repo.packagist composer https://packagist.phpcomposer.com
 
