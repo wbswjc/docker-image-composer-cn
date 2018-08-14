@@ -6,7 +6,5 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
   && php -r "unlink('composer-setup.php');" \
   && mv ./composer.phar /usr/local/bin/composer
 
-RUN apt-get update -y && apt-get install -y libpng-dev git && docker-php-ext-install gd zip
-
 RUN composer config -g repo.packagist composer https://packagist.laravel-china.org
 
